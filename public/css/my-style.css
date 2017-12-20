@@ -1,0 +1,167 @@
+.rediconcolor {
+    color: #c80fab !important;
+}
+.blackiconcolor {
+    color: #413a3a !important;
+}
+#map {
+    height: 300px;
+    width: 100%;
+}
+
+.pac-container{
+    position: fixed !important;
+}
+
+.panel-body-general{
+    min-height: 500px;
+    background: #d3e0e9;
+}
+.panel-title-general{
+    margin-bottom: 3px;
+}
+
+.footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: #efefef;
+  text-align: center;
+}
+
+  /*Customize navigation bar */
+#custom-bootstrap-menu.navbar-pro .navbar-brand {
+    color: rgba(245, 233, 233, 1);
+}
+#custom-bootstrap-menu.navbar-pro {
+    font-size: 14px;
+    background-color: rgba(230, 104, 104, 1);
+    border-width: 1px;
+    border-radius: 4px;
+}
+#custom-bootstrap-menu.navbar-pro .navbar-nav>li>a {
+    color: rgba(54, 42, 42, 1);
+    background-color: rgba(237, 102, 102, 1);
+    background: -webkit-linear-gradient(top, rgba(248, 248, 248, 0) 0%, rgba(237, 102, 102, 1) 100%);
+    background: linear-gradient(to bottom, rgba(248, 248, 248, 0) 0%, rgba(237, 102, 102, 1) 100%);
+}
+#custom-bootstrap-menu.navbar-pro .navbar-nav>li>a:hover,
+#custom-bootstrap-menu.navbar-pro .navbar-nav>li>a:focus {
+    color: rgba(31, 128, 219, 1);
+    background-color: rgba(245, 237, 237, 1);
+    background: -webkit-linear-gradient(top, rgba(248, 248, 248, 0) 0%, rgba(245, 237, 237, 1) 100%);
+    background: linear-gradient(to bottom, rgba(248, 248, 248, 0) 0%, rgba(245, 237, 237, 1) 100%);
+}
+#custom-bootstrap-menu.navbar-pro .navbar-nav>.active>a,
+#custom-bootstrap-menu.navbar-pro .navbar-nav>.active>a:hover,
+#custom-bootstrap-menu.navbar-pro .navbar-nav>.active>a:focus {
+    color: rgba(85, 85, 85, 1);
+    background-color: rgba(250, 245, 245, 1);
+    background: -webkit-linear-gradient(top, rgba(231, 231, 231, 1) 0%, rgba(250, 245, 245, 1) 100%);
+    background: linear-gradient(to bottom, rgba(231, 231, 231, 1) 0%, rgba(250, 245, 245, 1) 100%);
+}
+#custom-bootstrap-menu.navbar-pro .navbar-toggle {
+    border-color: #faf5f5;
+}
+#custom-bootstrap-menu.navbar-pro .navbar-toggle:hover,
+#custom-bootstrap-menu.navbar-pro .navbar-toggle:focus {
+    background-color: #faf5f5;
+}
+#custom-bootstrap-menu.navbar-pro .navbar-toggle .icon-bar {
+    background-color: #faf5f5;
+}
+#custom-bootstrap-menu.navbar-pro .navbar-toggle:hover .icon-bar,
+#custom-bootstrap-menu.navbar-pro .navbar-toggle:focus .icon-bar {
+    background-color: #e66868;
+}
+/*For icon in input*/
+.center-block {
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.input-group .icon-addon .form-control {
+    border-radius: 0;
+}
+
+.icon-addon {
+    position: relative;
+    color: #555;
+    display: block;
+}
+
+.icon-addon:after,
+.icon-addon:before {
+    display: table;
+    content: " ";
+}
+
+.icon-addon:after {
+    clear: both;
+}
+
+.icon-addon.addon-md .glyphicon,
+.icon-addon .glyphicon, 
+.icon-addon.addon-md .fa,
+.icon-addon .fa {
+    position: absolute;
+    z-index: 2;
+    left: 10px;
+    font-size: 14px;
+    width: 20px;
+    margin-left: -2.5px;
+    text-align: center;
+    padding: 10px 0;
+    top: 1px
+}
+
+.icon-addon.addon-lg .form-control {
+    line-height: 1.33;
+    height: 46px;
+    font-size: 18px;
+    padding: 10px 16px 10px 40px;
+}
+
+.icon-addon.addon-sm .form-control {
+    height: 30px;
+    padding: 5px 10px 5px 28px;
+    font-size: 12px;
+    line-height: 1.5;
+}
+
+.icon-addon.addon-lg .fa,
+.icon-addon.addon-lg .glyphicon {
+    font-size: 18px;
+    margin-left: 0;
+    left: 11px;
+    top: 4px;
+}
+
+.icon-addon.addon-md .form-control,
+.icon-addon .form-control {
+    padding-left: 30px;
+    float: left;
+    font-weight: normal;
+}
+
+.icon-addon.addon-sm .fa,
+.icon-addon.addon-sm .glyphicon {
+    margin-left: 0;
+    font-size: 12px;
+    left: 5px;
+    top: -1px
+}
+
+.icon-addon .form-control:focus + .glyphicon,
+.icon-addon:hover .glyphicon,
+.icon-addon .form-control:focus + .fa,
+.icon-addon:hover .fa {
+    color: #2580db;
+}
+
+.icon-addon #search_location {
+    border-radius: 20px;
+}

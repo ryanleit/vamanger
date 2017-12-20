@@ -1,0 +1,308 @@
+{
+  "variables": [],
+  "info": {
+    "name": "vamanger",
+    "_postman_id": "f3146335-80de-f131-f508-43694697acfa",
+    "description": "",
+    "schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+  },
+  "item": [
+    {
+      "_postman_id": "5d67a266-5259-53dc-bc0e-73917fd2c63a",
+      "name": "restaurants dish nearby",
+      "request": {
+        "url": "https://vamanger.com/api/restaurants-nearby?lat=48,8837701&lng=2,2396223000001",
+        "method": "GET",
+        "header": [
+          {
+            "key": "Accept",
+            "value": "application/json",
+            "description": ""
+          },
+          {
+            "key": "Authorization",
+            "value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImp0aSI6Ijg0Yjk1NjQ0YjgyMDg4YzJhYzgxMTRmNGU3NGZlNTlhM2ZlODc3NzIzMzA4YmY1MGVhNjk4NDI4ZTQ1ZjY2NWViY2RmYWEyMGI1ODFjMjI4In0.eyJhdWQiOiIxIiwianRpIjoiODRiOTU2NDRiODIwODhjMmFjODExNGY0ZTc0ZmU1OWEzZmU4Nzc3MjMzMDhiZjUwZWE2OTg0MjhlNDVmNjY1ZWJjZGZhYTIwYjU4MWMyMjgiLCJpYXQiOjE0OTQ0MjAwNjQsIm5iZiI6MTQ5NDQyMDA2NCwiZXhwIjoxNTI1OTU2MDY0LCJzdWIiOiIxIiwic2NvcGVzIjpbXX0.ff7_GWNd0swCotZKg06R10eaRJPG9iW1IUuTAcfIpW6VyTWG6ohCt-I3nxDUIcOo7y4hH8ALlvlWsZiswuCWjVUOuoZpCQ-qxpwz4TJ8nfWN-QNLi6zM1OSffvzRgmO-DSTrY256_6z0MlCjJqCDH0NVzEFQo34JEOXnx0ao2yzjXAtkLQqS-xXZA7unuS3kuGf3PlxbpFtR_Dbq1dAT0TdRv3n8gbCzf7uMaJPG7QPxQeBemTTMlFR_G-W2WNvPwoGOI2wy1yQ2bzfsxD4yzvpXD0dmiVg5hb7keGNQr9g8jxP-Nt4KAX2fU57Bf8HtJEjkQUPw3GnL5hdXQ7wtRqxfhoZe_2ri8b-izC2lZiCr7ATvWa1vqxiVTAwvjkGFjynQKZ-l9QVFr5YKT1X79u2r_rmESnNBpqTaJ7gwvO-0u0WPSiri15CS9zN01hwDBGhIbVIPFhQ63Fvd20cZcw6KL_d11l-BPPKQ_duOUO-Kk_Tf2zen1n5aAT2mjj8Rf89Ig-mITjwxwKxwrqPaIvaD0PhU5iz0-Bo--JC3m_npEopDYP7xK2ar2xTrpElViSPUBZNnJLUr5J-8pQvJr0JBL0tculagBcP1LufRUazwdsYEc1muPOEEE56Fas0nX1iZpdq3IxyNhTud3axeMikEEEx_UI1mtIoahIBBsuM",
+            "description": ""
+          }
+        ],
+        "body": {},
+        "description": ""
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "c9edcc0d-8e09-47ed-0f8f-31d9dcd98c57",
+      "name": "food nearby",
+      "request": {
+        "url": "https://vamanger.com/api/v1/food-nearby?lat=48,8837701&lng=2,2396223000001",
+        "method": "GET",
+        "header": [
+          {
+            "key": "Accept",
+            "value": "application/json",
+            "description": ""
+          },
+          {
+            "key": "Authorization",
+            "value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImp0aSI6Ijg0Yjk1NjQ0YjgyMDg4YzJhYzgxMTRmNGU3NGZlNTlhM2ZlODc3NzIzMzA4YmY1MGVhNjk4NDI4ZTQ1ZjY2NWViY2RmYWEyMGI1ODFjMjI4In0.eyJhdWQiOiIxIiwianRpIjoiODRiOTU2NDRiODIwODhjMmFjODExNGY0ZTc0ZmU1OWEzZmU4Nzc3MjMzMDhiZjUwZWE2OTg0MjhlNDVmNjY1ZWJjZGZhYTIwYjU4MWMyMjgiLCJpYXQiOjE0OTQ0MjAwNjQsIm5iZiI6MTQ5NDQyMDA2NCwiZXhwIjoxNTI1OTU2MDY0LCJzdWIiOiIxIiwic2NvcGVzIjpbXX0.ff7_GWNd0swCotZKg06R10eaRJPG9iW1IUuTAcfIpW6VyTWG6ohCt-I3nxDUIcOo7y4hH8ALlvlWsZiswuCWjVUOuoZpCQ-qxpwz4TJ8nfWN-QNLi6zM1OSffvzRgmO-DSTrY256_6z0MlCjJqCDH0NVzEFQo34JEOXnx0ao2yzjXAtkLQqS-xXZA7unuS3kuGf3PlxbpFtR_Dbq1dAT0TdRv3n8gbCzf7uMaJPG7QPxQeBemTTMlFR_G-W2WNvPwoGOI2wy1yQ2bzfsxD4yzvpXD0dmiVg5hb7keGNQr9g8jxP-Nt4KAX2fU57Bf8HtJEjkQUPw3GnL5hdXQ7wtRqxfhoZe_2ri8b-izC2lZiCr7ATvWa1vqxiVTAwvjkGFjynQKZ-l9QVFr5YKT1X79u2r_rmESnNBpqTaJ7gwvO-0u0WPSiri15CS9zN01hwDBGhIbVIPFhQ63Fvd20cZcw6KL_d11l-BPPKQ_duOUO-Kk_Tf2zen1n5aAT2mjj8Rf89Ig-mITjwxwKxwrqPaIvaD0PhU5iz0-Bo--JC3m_npEopDYP7xK2ar2xTrpElViSPUBZNnJLUr5J-8pQvJr0JBL0tculagBcP1LufRUazwdsYEc1muPOEEE56Fas0nX1iZpdq3IxyNhTud3axeMikEEEx_UI1mtIoahIBBsuM",
+            "description": ""
+          }
+        ],
+        "body": {},
+        "description": ""
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "a4ca8ce4-648c-cedd-d776-3613605fd432",
+      "name": "restaurant info - aubestof",
+      "request": {
+        "url": "https://vamanger.com/api/v1/restaurant/98555",
+        "method": "GET",
+        "header": [
+          {
+            "key": "Accept",
+            "value": "application/json",
+            "description": ""
+          },
+          {
+            "key": "Authorization",
+            "value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImp0aSI6Ijg0Yjk1NjQ0YjgyMDg4YzJhYzgxMTRmNGU3NGZlNTlhM2ZlODc3NzIzMzA4YmY1MGVhNjk4NDI4ZTQ1ZjY2NWViY2RmYWEyMGI1ODFjMjI4In0.eyJhdWQiOiIxIiwianRpIjoiODRiOTU2NDRiODIwODhjMmFjODExNGY0ZTc0ZmU1OWEzZmU4Nzc3MjMzMDhiZjUwZWE2OTg0MjhlNDVmNjY1ZWJjZGZhYTIwYjU4MWMyMjgiLCJpYXQiOjE0OTQ0MjAwNjQsIm5iZiI6MTQ5NDQyMDA2NCwiZXhwIjoxNTI1OTU2MDY0LCJzdWIiOiIxIiwic2NvcGVzIjpbXX0.ff7_GWNd0swCotZKg06R10eaRJPG9iW1IUuTAcfIpW6VyTWG6ohCt-I3nxDUIcOo7y4hH8ALlvlWsZiswuCWjVUOuoZpCQ-qxpwz4TJ8nfWN-QNLi6zM1OSffvzRgmO-DSTrY256_6z0MlCjJqCDH0NVzEFQo34JEOXnx0ao2yzjXAtkLQqS-xXZA7unuS3kuGf3PlxbpFtR_Dbq1dAT0TdRv3n8gbCzf7uMaJPG7QPxQeBemTTMlFR_G-W2WNvPwoGOI2wy1yQ2bzfsxD4yzvpXD0dmiVg5hb7keGNQr9g8jxP-Nt4KAX2fU57Bf8HtJEjkQUPw3GnL5hdXQ7wtRqxfhoZe_2ri8b-izC2lZiCr7ATvWa1vqxiVTAwvjkGFjynQKZ-l9QVFr5YKT1X79u2r_rmESnNBpqTaJ7gwvO-0u0WPSiri15CS9zN01hwDBGhIbVIPFhQ63Fvd20cZcw6KL_d11l-BPPKQ_duOUO-Kk_Tf2zen1n5aAT2mjj8Rf89Ig-mITjwxwKxwrqPaIvaD0PhU5iz0-Bo--JC3m_npEopDYP7xK2ar2xTrpElViSPUBZNnJLUr5J-8pQvJr0JBL0tculagBcP1LufRUazwdsYEc1muPOEEE56Fas0nX1iZpdq3IxyNhTud3axeMikEEEx_UI1mtIoahIBBsuM",
+            "description": ""
+          }
+        ],
+        "body": {},
+        "description": ""
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "c9d3ad19-2dac-a6a4-9eab-5f6692a3253d",
+      "name": "dish categories",
+      "request": {
+        "url": "https://vamanger.com/api/v1/categories",
+        "method": "GET",
+        "header": [
+          {
+            "key": "Accept",
+            "value": "application/json",
+            "description": ""
+          },
+          {
+            "key": "Authorization",
+            "value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImp0aSI6Ijg0Yjk1NjQ0YjgyMDg4YzJhYzgxMTRmNGU3NGZlNTlhM2ZlODc3NzIzMzA4YmY1MGVhNjk4NDI4ZTQ1ZjY2NWViY2RmYWEyMGI1ODFjMjI4In0.eyJhdWQiOiIxIiwianRpIjoiODRiOTU2NDRiODIwODhjMmFjODExNGY0ZTc0ZmU1OWEzZmU4Nzc3MjMzMDhiZjUwZWE2OTg0MjhlNDVmNjY1ZWJjZGZhYTIwYjU4MWMyMjgiLCJpYXQiOjE0OTQ0MjAwNjQsIm5iZiI6MTQ5NDQyMDA2NCwiZXhwIjoxNTI1OTU2MDY0LCJzdWIiOiIxIiwic2NvcGVzIjpbXX0.ff7_GWNd0swCotZKg06R10eaRJPG9iW1IUuTAcfIpW6VyTWG6ohCt-I3nxDUIcOo7y4hH8ALlvlWsZiswuCWjVUOuoZpCQ-qxpwz4TJ8nfWN-QNLi6zM1OSffvzRgmO-DSTrY256_6z0MlCjJqCDH0NVzEFQo34JEOXnx0ao2yzjXAtkLQqS-xXZA7unuS3kuGf3PlxbpFtR_Dbq1dAT0TdRv3n8gbCzf7uMaJPG7QPxQeBemTTMlFR_G-W2WNvPwoGOI2wy1yQ2bzfsxD4yzvpXD0dmiVg5hb7keGNQr9g8jxP-Nt4KAX2fU57Bf8HtJEjkQUPw3GnL5hdXQ7wtRqxfhoZe_2ri8b-izC2lZiCr7ATvWa1vqxiVTAwvjkGFjynQKZ-l9QVFr5YKT1X79u2r_rmESnNBpqTaJ7gwvO-0u0WPSiri15CS9zN01hwDBGhIbVIPFhQ63Fvd20cZcw6KL_d11l-BPPKQ_duOUO-Kk_Tf2zen1n5aAT2mjj8Rf89Ig-mITjwxwKxwrqPaIvaD0PhU5iz0-Bo--JC3m_npEopDYP7xK2ar2xTrpElViSPUBZNnJLUr5J-8pQvJr0JBL0tculagBcP1LufRUazwdsYEc1muPOEEE56Fas0nX1iZpdq3IxyNhTud3axeMikEEEx_UI1mtIoahIBBsuM",
+            "description": ""
+          }
+        ],
+        "body": {},
+        "description": ""
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "a359f609-728a-6cf3-cad9-4cfbe6572205",
+      "name": "dish filter",
+      "request": {
+        "url": "https://vamanger.com/api/v1/food-nearby?lat=48,8837701&lng=2,2396223000001&dish=1,4",
+        "method": "GET",
+        "header": [
+          {
+            "key": "Accept",
+            "value": "application/json",
+            "description": ""
+          },
+          {
+            "key": "Authorization",
+            "value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImp0aSI6Ijg0Yjk1NjQ0YjgyMDg4YzJhYzgxMTRmNGU3NGZlNTlhM2ZlODc3NzIzMzA4YmY1MGVhNjk4NDI4ZTQ1ZjY2NWViY2RmYWEyMGI1ODFjMjI4In0.eyJhdWQiOiIxIiwianRpIjoiODRiOTU2NDRiODIwODhjMmFjODExNGY0ZTc0ZmU1OWEzZmU4Nzc3MjMzMDhiZjUwZWE2OTg0MjhlNDVmNjY1ZWJjZGZhYTIwYjU4MWMyMjgiLCJpYXQiOjE0OTQ0MjAwNjQsIm5iZiI6MTQ5NDQyMDA2NCwiZXhwIjoxNTI1OTU2MDY0LCJzdWIiOiIxIiwic2NvcGVzIjpbXX0.ff7_GWNd0swCotZKg06R10eaRJPG9iW1IUuTAcfIpW6VyTWG6ohCt-I3nxDUIcOo7y4hH8ALlvlWsZiswuCWjVUOuoZpCQ-qxpwz4TJ8nfWN-QNLi6zM1OSffvzRgmO-DSTrY256_6z0MlCjJqCDH0NVzEFQo34JEOXnx0ao2yzjXAtkLQqS-xXZA7unuS3kuGf3PlxbpFtR_Dbq1dAT0TdRv3n8gbCzf7uMaJPG7QPxQeBemTTMlFR_G-W2WNvPwoGOI2wy1yQ2bzfsxD4yzvpXD0dmiVg5hb7keGNQr9g8jxP-Nt4KAX2fU57Bf8HtJEjkQUPw3GnL5hdXQ7wtRqxfhoZe_2ri8b-izC2lZiCr7ATvWa1vqxiVTAwvjkGFjynQKZ-l9QVFr5YKT1X79u2r_rmESnNBpqTaJ7gwvO-0u0WPSiri15CS9zN01hwDBGhIbVIPFhQ63Fvd20cZcw6KL_d11l-BPPKQ_duOUO-Kk_Tf2zen1n5aAT2mjj8Rf89Ig-mITjwxwKxwrqPaIvaD0PhU5iz0-Bo--JC3m_npEopDYP7xK2ar2xTrpElViSPUBZNnJLUr5J-8pQvJr0JBL0tculagBcP1LufRUazwdsYEc1muPOEEE56Fas0nX1iZpdq3IxyNhTud3axeMikEEEx_UI1mtIoahIBBsuM",
+            "description": ""
+          }
+        ],
+        "body": {},
+        "description": ""
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "058361e8-4680-6f16-4bbc-a49d3a2d7023",
+      "name": "create resto",
+      "request": {
+        "url": "https://vamanger.com/api/v1/menu-create-google",
+        "method": "POST",
+        "header": [
+          {
+            "key": "Accept",
+            "value": "application/json",
+            "description": ""
+          },
+          {
+            "key": "Authorization",
+            "value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImp0aSI6Ijg0Yjk1NjQ0YjgyMDg4YzJhYzgxMTRmNGU3NGZlNTlhM2ZlODc3NzIzMzA4YmY1MGVhNjk4NDI4ZTQ1ZjY2NWViY2RmYWEyMGI1ODFjMjI4In0.eyJhdWQiOiIxIiwianRpIjoiODRiOTU2NDRiODIwODhjMmFjODExNGY0ZTc0ZmU1OWEzZmU4Nzc3MjMzMDhiZjUwZWE2OTg0MjhlNDVmNjY1ZWJjZGZhYTIwYjU4MWMyMjgiLCJpYXQiOjE0OTQ0MjAwNjQsIm5iZiI6MTQ5NDQyMDA2NCwiZXhwIjoxNTI1OTU2MDY0LCJzdWIiOiIxIiwic2NvcGVzIjpbXX0.ff7_GWNd0swCotZKg06R10eaRJPG9iW1IUuTAcfIpW6VyTWG6ohCt-I3nxDUIcOo7y4hH8ALlvlWsZiswuCWjVUOuoZpCQ-qxpwz4TJ8nfWN-QNLi6zM1OSffvzRgmO-DSTrY256_6z0MlCjJqCDH0NVzEFQo34JEOXnx0ao2yzjXAtkLQqS-xXZA7unuS3kuGf3PlxbpFtR_Dbq1dAT0TdRv3n8gbCzf7uMaJPG7QPxQeBemTTMlFR_G-W2WNvPwoGOI2wy1yQ2bzfsxD4yzvpXD0dmiVg5hb7keGNQr9g8jxP-Nt4KAX2fU57Bf8HtJEjkQUPw3GnL5hdXQ7wtRqxfhoZe_2ri8b-izC2lZiCr7ATvWa1vqxiVTAwvjkGFjynQKZ-l9QVFr5YKT1X79u2r_rmESnNBpqTaJ7gwvO-0u0WPSiri15CS9zN01hwDBGhIbVIPFhQ63Fvd20cZcw6KL_d11l-BPPKQ_duOUO-Kk_Tf2zen1n5aAT2mjj8Rf89Ig-mITjwxwKxwrqPaIvaD0PhU5iz0-Bo--JC3m_npEopDYP7xK2ar2xTrpElViSPUBZNnJLUr5J-8pQvJr0JBL0tculagBcP1LufRUazwdsYEc1muPOEEE56Fas0nX1iZpdq3IxyNhTud3axeMikEEEx_UI1mtIoahIBBsuM",
+            "description": ""
+          }
+        ],
+        "body": {},
+        "description": ""
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "20ce9b00-0924-7b8a-fbae-a68956498db0",
+      "name": "Restaurant Google API",
+      "request": {
+        "url": {
+          "raw": "https://vamanger.com/api/v1/restos-google?lat=48.8837701&lng=2.2396223000001",
+          "protocol": "https",
+          "auth": {},
+          "host": [
+            "vamanger",
+            "com"
+          ],
+          "path": [
+            "api",
+            "v1",
+            "restos-google"
+          ],
+          "query": [
+            {
+              "key": "lat",
+              "value": "48.8837701",
+              "equals": true,
+              "description": ""
+            },
+            {
+              "key": "lng",
+              "value": "2.2396223000001",
+              "equals": true,
+              "description": ""
+            }
+          ],
+          "variable": []
+        },
+        "method": "GET",
+        "header": [
+          {
+            "key": "Accept",
+            "value": "application/json",
+            "description": ""
+          },
+          {
+            "key": "Authorization",
+            "value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImp0aSI6Ijg0Yjk1NjQ0YjgyMDg4YzJhYzgxMTRmNGU3NGZlNTlhM2ZlODc3NzIzMzA4YmY1MGVhNjk4NDI4ZTQ1ZjY2NWViY2RmYWEyMGI1ODFjMjI4In0.eyJhdWQiOiIxIiwianRpIjoiODRiOTU2NDRiODIwODhjMmFjODExNGY0ZTc0ZmU1OWEzZmU4Nzc3MjMzMDhiZjUwZWE2OTg0MjhlNDVmNjY1ZWJjZGZhYTIwYjU4MWMyMjgiLCJpYXQiOjE0OTQ0MjAwNjQsIm5iZiI6MTQ5NDQyMDA2NCwiZXhwIjoxNTI1OTU2MDY0LCJzdWIiOiIxIiwic2NvcGVzIjpbXX0.ff7_GWNd0swCotZKg06R10eaRJPG9iW1IUuTAcfIpW6VyTWG6ohCt-I3nxDUIcOo7y4hH8ALlvlWsZiswuCWjVUOuoZpCQ-qxpwz4TJ8nfWN-QNLi6zM1OSffvzRgmO-DSTrY256_6z0MlCjJqCDH0NVzEFQo34JEOXnx0ao2yzjXAtkLQqS-xXZA7unuS3kuGf3PlxbpFtR_Dbq1dAT0TdRv3n8gbCzf7uMaJPG7QPxQeBemTTMlFR_G-W2WNvPwoGOI2wy1yQ2bzfsxD4yzvpXD0dmiVg5hb7keGNQr9g8jxP-Nt4KAX2fU57Bf8HtJEjkQUPw3GnL5hdXQ7wtRqxfhoZe_2ri8b-izC2lZiCr7ATvWa1vqxiVTAwvjkGFjynQKZ-l9QVFr5YKT1X79u2r_rmESnNBpqTaJ7gwvO-0u0WPSiri15CS9zN01hwDBGhIbVIPFhQ63Fvd20cZcw6KL_d11l-BPPKQ_duOUO-Kk_Tf2zen1n5aAT2mjj8Rf89Ig-mITjwxwKxwrqPaIvaD0PhU5iz0-Bo--JC3m_npEopDYP7xK2ar2xTrpElViSPUBZNnJLUr5J-8pQvJr0JBL0tculagBcP1LufRUazwdsYEc1muPOEEE56Fas0nX1iZpdq3IxyNhTud3axeMikEEEx_UI1mtIoahIBBsuM",
+            "description": ""
+          }
+        ],
+        "body": {},
+        "description": ""
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "2fc174a4-2194-5efc-8586-e93ff805826f",
+      "name": "Restaurant Google API (load more)",
+      "request": {
+        "url": {
+          "raw": "https://vamanger.com/api/v1/restos-google?lat=48.8837701&lng=2.2396223000001&page_token=CpQCCwEAAMEygaLC251zAsefPbEbI0yKAjoh1wVmt8YXvqwMVVlQn_S-pna015BNmgb1sBK0KdTm5SZjGC_oD6_0mtajiuaSQuO64AnMVS2c3fbzULc7K7u1oORG6vnGQuZmD0HGaELfpOA4UY-UcotfbXuL8DjzrT820jJQ6w-naC8pDXqP6cZIQThG4u2QdWIbSloL37iV9HBE0O3IMw9NocRg5AXEh8_Kd_6M-5VOi4gWjniaHDalirLELfOtPIHJP7SQ5f6uCaT7_W8FAsLKK6AkoZA-o5RPOrYjHaPncdGUqwvBtsvlPcKSDtgEMupxw4zybvjySienBQ_14yDKDZUSRXDdLD2gYCeaRmvpjNIyRQ0tEhA0t0nrdqhxB2CPHSaCX7GjGhQMnuX7NubUP7FYKW_yD9wDDDyFmQ",
+          "protocol": "https",
+          "auth": {},
+          "host": [
+            "vamanger",
+            "com"
+          ],
+          "path": [
+            "api",
+            "v1",
+            "restos-google"
+          ],
+          "query": [
+            {
+              "key": "lat",
+              "value": "48.8837701",
+              "equals": true,
+              "description": ""
+            },
+            {
+              "key": "lng",
+              "value": "2.2396223000001",
+              "equals": true,
+              "description": ""
+            },
+            {
+              "key": "page_token",
+              "value": "CpQCCwEAAMEygaLC251zAsefPbEbI0yKAjoh1wVmt8YXvqwMVVlQn_S-pna015BNmgb1sBK0KdTm5SZjGC_oD6_0mtajiuaSQuO64AnMVS2c3fbzULc7K7u1oORG6vnGQuZmD0HGaELfpOA4UY-UcotfbXuL8DjzrT820jJQ6w-naC8pDXqP6cZIQThG4u2QdWIbSloL37iV9HBE0O3IMw9NocRg5AXEh8_Kd_6M-5VOi4gWjniaHDalirLELfOtPIHJP7SQ5f6uCaT7_W8FAsLKK6AkoZA-o5RPOrYjHaPncdGUqwvBtsvlPcKSDtgEMupxw4zybvjySienBQ_14yDKDZUSRXDdLD2gYCeaRmvpjNIyRQ0tEhA0t0nrdqhxB2CPHSaCX7GjGhQMnuX7NubUP7FYKW_yD9wDDDyFmQ",
+              "equals": true,
+              "description": ""
+            }
+          ],
+          "variable": []
+        },
+        "method": "GET",
+        "header": [
+          {
+            "key": "Accept",
+            "value": "application/json",
+            "description": ""
+          },
+          {
+            "key": "Authorization",
+            "value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImp0aSI6Ijg0Yjk1NjQ0YjgyMDg4YzJhYzgxMTRmNGU3NGZlNTlhM2ZlODc3NzIzMzA4YmY1MGVhNjk4NDI4ZTQ1ZjY2NWViY2RmYWEyMGI1ODFjMjI4In0.eyJhdWQiOiIxIiwianRpIjoiODRiOTU2NDRiODIwODhjMmFjODExNGY0ZTc0ZmU1OWEzZmU4Nzc3MjMzMDhiZjUwZWE2OTg0MjhlNDVmNjY1ZWJjZGZhYTIwYjU4MWMyMjgiLCJpYXQiOjE0OTQ0MjAwNjQsIm5iZiI6MTQ5NDQyMDA2NCwiZXhwIjoxNTI1OTU2MDY0LCJzdWIiOiIxIiwic2NvcGVzIjpbXX0.ff7_GWNd0swCotZKg06R10eaRJPG9iW1IUuTAcfIpW6VyTWG6ohCt-I3nxDUIcOo7y4hH8ALlvlWsZiswuCWjVUOuoZpCQ-qxpwz4TJ8nfWN-QNLi6zM1OSffvzRgmO-DSTrY256_6z0MlCjJqCDH0NVzEFQo34JEOXnx0ao2yzjXAtkLQqS-xXZA7unuS3kuGf3PlxbpFtR_Dbq1dAT0TdRv3n8gbCzf7uMaJPG7QPxQeBemTTMlFR_G-W2WNvPwoGOI2wy1yQ2bzfsxD4yzvpXD0dmiVg5hb7keGNQr9g8jxP-Nt4KAX2fU57Bf8HtJEjkQUPw3GnL5hdXQ7wtRqxfhoZe_2ri8b-izC2lZiCr7ATvWa1vqxiVTAwvjkGFjynQKZ-l9QVFr5YKT1X79u2r_rmESnNBpqTaJ7gwvO-0u0WPSiri15CS9zN01hwDBGhIbVIPFhQ63Fvd20cZcw6KL_d11l-BPPKQ_duOUO-Kk_Tf2zen1n5aAT2mjj8Rf89Ig-mITjwxwKxwrqPaIvaD0PhU5iz0-Bo--JC3m_npEopDYP7xK2ar2xTrpElViSPUBZNnJLUr5J-8pQvJr0JBL0tculagBcP1LufRUazwdsYEc1muPOEEE56Fas0nX1iZpdq3IxyNhTud3axeMikEEEx_UI1mtIoahIBBsuM",
+            "description": ""
+          }
+        ],
+        "body": {},
+        "description": ""
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "f6d79673-da10-03a8-f9bc-25936b879fdb",
+      "name": "Restaurant Google API copy",
+      "request": {
+        "url": {
+          "raw": "https://vamanger.com/api/v1/restos-google?lat=21.58313609999999&lng=105.80941",
+          "protocol": "https",
+          "auth": {},
+          "host": [
+            "vamanger",
+            "com"
+          ],
+          "path": [
+            "api",
+            "v1",
+            "restos-google"
+          ],
+          "query": [
+            {
+              "key": "lat",
+              "value": "21.58313609999999",
+              "equals": true,
+              "description": ""
+            },
+            {
+              "key": "lng",
+              "value": "105.80941",
+              "equals": true,
+              "description": ""
+            }
+          ],
+          "variable": []
+        },
+        "method": "GET",
+        "header": [
+          {
+            "key": "Accept",
+            "value": "application/json",
+            "description": ""
+          },
+          {
+            "key": "Authorization",
+            "value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImp0aSI6Ijg0Yjk1NjQ0YjgyMDg4YzJhYzgxMTRmNGU3NGZlNTlhM2ZlODc3NzIzMzA4YmY1MGVhNjk4NDI4ZTQ1ZjY2NWViY2RmYWEyMGI1ODFjMjI4In0.eyJhdWQiOiIxIiwianRpIjoiODRiOTU2NDRiODIwODhjMmFjODExNGY0ZTc0ZmU1OWEzZmU4Nzc3MjMzMDhiZjUwZWE2OTg0MjhlNDVmNjY1ZWJjZGZhYTIwYjU4MWMyMjgiLCJpYXQiOjE0OTQ0MjAwNjQsIm5iZiI6MTQ5NDQyMDA2NCwiZXhwIjoxNTI1OTU2MDY0LCJzdWIiOiIxIiwic2NvcGVzIjpbXX0.ff7_GWNd0swCotZKg06R10eaRJPG9iW1IUuTAcfIpW6VyTWG6ohCt-I3nxDUIcOo7y4hH8ALlvlWsZiswuCWjVUOuoZpCQ-qxpwz4TJ8nfWN-QNLi6zM1OSffvzRgmO-DSTrY256_6z0MlCjJqCDH0NVzEFQo34JEOXnx0ao2yzjXAtkLQqS-xXZA7unuS3kuGf3PlxbpFtR_Dbq1dAT0TdRv3n8gbCzf7uMaJPG7QPxQeBemTTMlFR_G-W2WNvPwoGOI2wy1yQ2bzfsxD4yzvpXD0dmiVg5hb7keGNQr9g8jxP-Nt4KAX2fU57Bf8HtJEjkQUPw3GnL5hdXQ7wtRqxfhoZe_2ri8b-izC2lZiCr7ATvWa1vqxiVTAwvjkGFjynQKZ-l9QVFr5YKT1X79u2r_rmESnNBpqTaJ7gwvO-0u0WPSiri15CS9zN01hwDBGhIbVIPFhQ63Fvd20cZcw6KL_d11l-BPPKQ_duOUO-Kk_Tf2zen1n5aAT2mjj8Rf89Ig-mITjwxwKxwrqPaIvaD0PhU5iz0-Bo--JC3m_npEopDYP7xK2ar2xTrpElViSPUBZNnJLUr5J-8pQvJr0JBL0tculagBcP1LufRUazwdsYEc1muPOEEE56Fas0nX1iZpdq3IxyNhTud3axeMikEEEx_UI1mtIoahIBBsuM",
+            "description": ""
+          }
+        ],
+        "body": {},
+        "description": ""
+      },
+      "response": []
+    }
+  ]
+}
